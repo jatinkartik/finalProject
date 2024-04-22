@@ -1,38 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <div align="center">Amazon Clone</div>
 
-## Getting Started
+### <div align="center">A fully functional E-commerce website</div><br>
 
-First, run the development server:
+This is a clone of the well-known e-commerce website Amazon. Customers can browse products and make purchases. It offers a sign in/sign up feature that keeps track of the user's cart and purchases. It was built with React on the frontend, Node and Express on the backend, MongoDB for data storage, and Razorpay for payment integration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Features 📃
+<ul>
+  <li>User Sign up / Sign in</li>
+  <li>Logout from your account</li>
+  <li>Browse and search products</li>
+  <li>Check profile and order history</li>
+  <li>Cart:</li>
+  <ul>
+    <li>Add multiple products</li>
+    <li>Update products</li>
+    <li>Remove products</li>
+  </ul>
+  <li>Buy a product immediately</li>
+  <li>Payment with multiple options</li>
+</ul>
+
+## Technology Used 💻
+<ul>
+  <li><strong>IDE:</strong> Visual Studio Code</li>
+  <li><strong>Frontend:</strong> React.js</li>
+  <li><strong>Backend:</strong> Express.js</li>
+  <li><strong>Database:</strong> MongoDB</li>
+  <li><strong>Runtime Environment:</strong> Node.js</li>
+  <li><strong>HTTP Client:</strong> Axios</li>
+  <li><strong>Version Control:</strong> Git</li>
+  <li><strong>Payment Integration:</strong> Razorpay</li>
+</ul>
+
+## Demo Link 🌐
+https://amazonclone-sp.herokuapp.com/
+
+## Download Files 👇
+* Go to my GitHub repository: https://github.com/SushantPatial/Amazon-Clone
+* Download zip or clone repository
+* Then open the folder in your IDE 
+
+## To start the server 👨‍💻
+```shell
+npm install
+nodemon
 ```
+The server is now running at http://localhost:8000/ 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## To start the client 👩‍💻
+```shell
+cd client
+npm install
+npm start
+```
+The client is now running at http://localhost:3000/ 
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Screenshots 😍
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+#### Home Page
+![image](https://user-images.githubusercontent.com/84243683/168798477-5441dcb3-f0dc-422d-83bb-e14dee297576.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### Sign Up
+![image](https://user-images.githubusercontent.com/84243683/168797684-01651633-52f3-40e9-887a-8cbca72d4491.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Sign In
+![image](https://user-images.githubusercontent.com/84243683/168797547-ccbac103-eb06-49dc-a509-d61caf15603f.png)
 
-## Learn More
+#### Product
+![image](https://user-images.githubusercontent.com/84243683/168797859-25d26a38-d48c-48fa-8ff5-d21ade5621b4.png)
 
-To learn more about Next.js, take a look at the following resources:
+#### Cart
+![image](https://user-images.githubusercontent.com/84243683/168797981-ea56d3a5-256f-4280-b75a-7fa54952c147.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Payment
+![image](https://user-images.githubusercontent.com/84243683/168798064-dc774ad5-89e6-4a83-aecd-ebcf75c6cd80.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Profile
+![image](https://user-images.githubusercontent.com/84243683/168798275-e195649f-f0e6-4648-b96d-2c09ab6a72d5.png)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Orders
+![image](https://user-images.githubusercontent.com/84243683/168798196-7ed1a8a0-7622-428f-a291-84d9ca92ee06.png)
