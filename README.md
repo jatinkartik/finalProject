@@ -76,7 +76,7 @@ The client is now running at http://localhost:3000/
 ![image](https://user-images.githubusercontent.com/84243683/168798064-dc774ad5-89e6-4a83-aecd-ebcf75c6cd80.png)
 
 #### Profile
-![image](https://user-images.githubusercontent.com/84243683/168798275-e195649f-f0e6-4648-b96d-2c09ab6a72d5.png)
+![image](https://user-images.githubusercontent.com/84243683/168798196-7ed1a8a0-7622-428f-a291-84d9ca92ee06.png)
 
 #### Orders
 ![image](https://user-images.githubusercontent.com/84243683/168798196-7ed1a8a0-7622-428f-a291-84d9ca92ee06.png)
